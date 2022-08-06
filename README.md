@@ -1,1 +1,1 @@
-zuri landing page link ./zuri-landing-page.html
+zuri landing page link is zuri-landing-page.html
