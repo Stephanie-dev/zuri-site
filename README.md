@@ -1,1 +1,1 @@
-# zuri-site
+zuri landing page link is zuri-landing-page.html
