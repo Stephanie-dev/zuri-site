@@ -90,9 +90,17 @@ hr{
 .btn{
     padding: 11px 28px;
     border: 1px solid #E7332B;
-  
 }
 
+button:active{
+    border: 2px solid black;
+    
+}
+
+button:focus{
+    border: 2px solid black;
+    
+}
 .new{
     background-color: #E7332B;
     color: white;
@@ -185,6 +193,7 @@ section.programs{
     line-height: 24px;
     color: #514949;
     opacity: 0.9;
+    width: calc(100% + 10px);
     font-family: Graphik, sans-serif;
 }
 
