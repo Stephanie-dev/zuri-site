@@ -51,7 +51,7 @@ hr{
 }
 
 .hero{
-    max-width: 670px;
+    max-width: 700px;
     text-align: center;
     margin: 0 auto;
     padding: 10px;
@@ -61,9 +61,10 @@ hr{
     font-size: 16px;
     line-height: 24px;
     color: #514949;
-    font-weight: 500;
+    text-align: center;
+    font-weight: 400;
     opacity: 0.9;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
     font-family: Graphik, sans-serif;
 }
 
@@ -75,8 +76,8 @@ hr{
     color: #514949;
     font-size: 32px;
     line-height: 48px;
-    margin-bottom: 30px;
-    font-weight: 600;
+    margin-bottom: 33px;
+    font-weight: 500;
     font-family: Graphik, sans-serif;
 }
 
@@ -88,7 +89,7 @@ hr{
 }
 
 .btn{
-    padding: 11px 28px;
+    padding: 14px 28px;
     border: 1px solid #E7332B;
 }
 
@@ -115,7 +116,7 @@ button:focus{
 
 .experience{
     background-color: #fff;
-    color: black;
+    color: #E7332B;
     font-family: Graphik, sans-serif;
 }
 
@@ -144,6 +145,7 @@ section.programs{
     color: #E7332B;
     text-align: center;
     font-size: 14px;
+    font-weight: 400;
     font-family: Graphik, sans-serif;
     line-height: 24px;
 }
@@ -193,17 +195,21 @@ section.programs{
     line-height: 24px;
     color: #514949;
     opacity: 0.9;
-    width: calc(100% + 10px);
+    width: calc(100% + 1px);
     font-family: Graphik, sans-serif;
 }
 
 .column-card h3 a{
     opacity: 0.9;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
 }
 
 .text h3{
     margin-top: 30px;
     font-family: Graphik, sans-serif;
+   font-weight: 400;
 }
 
 .zuri{
@@ -244,7 +250,7 @@ section.programs{
 }
 .footerr h3{
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 24px;
     color: #514949;
     font-family: Graphik, sans-serif;
@@ -260,8 +266,23 @@ section.programs{
     line-height: 20px;
 }
 
+.link a{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.ctc p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+    font-weight: 400;
+}
 .ctc p a{
     opacity: 0.9;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .link a:hover, .ctc p a:hover{
@@ -279,7 +300,7 @@ section.programs{
 .copy p{
     font-size: 16px;
     line-height: 24px;
-    font-weight: bold;
+    font-weight: 500;
     text-align: center;
     margin-top: 32px;
     color: #514949;
