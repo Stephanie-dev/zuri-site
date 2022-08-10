@@ -937,23 +937,6 @@ hr {
     }
 }
 
-@-moz-keyframes spin {
-    100% {
-        -moz-transform: rotate(-180deg);
-    }
-}
-
-@-webkit-keyframes spin {
-    100% {
-        -webkit-transform: rotate(-180deg);
-    }
-}
-
-@keyframes spin {
-    100% {
-        -webkit-transform: rotate(-180deg);
-    }
-}
 
 .accordion .contentx .content {
     position: relative;
@@ -967,7 +950,8 @@ hr {
 
 .accordion .contentx.active .content {
     height: 36px;
-    padding: 2px 20px 50px 30px;
+    font-size: 0.9rem;
+    padding: 7px 20px 50px 20px;
 }
 
 .part7 {
