@@ -25,7 +25,7 @@
                     <a href="#about" class="about-us">About</a>
                     <a href="#why-us" class="trust">Why Us?</a>
                     <a href="#stacks-covered" class="stacks">Stacks Covered</a>
-                    <a href="#faqs" class="questions">FAQs</a>
+                    <a href="#faqs" class="questionss">FAQs</a>
                     <div href="#" class="enroll">
                         <!--flex-->
                         <a href="#"><img src="thumbs-zuri.png" alt="thumbsUp" class="thumb"></a>
@@ -72,7 +72,7 @@
                     <hr>
                 </div>
 
-                <div class="container2"  >
+                <div class="container2">
                     <div class="date">
                         <h2>INGRESSIVE FOR GOOD WAS LAUNCHED IN JULY 2020 WITH NO DOLLAR IN DONATION...</h2>
                     </div>
@@ -347,7 +347,48 @@
                 <p class="faq1">Frequently Asked Questions</p>
             </div>
 
-            <div></div>
+            <div class="body">
+                <div class="accordion">
+                    <div class="contentx">
+                        <div class="label"> Would I have to pay to enrol for the training?</div>
+                        <div class="content">No, the program is completely free thanks to Ingressive For Good
+                        </div>
+                    </div>
+
+                    <div class="contentx">
+                        <div class="label">What are the things I would need to participate?</div>
+                        <div class="content">You'll need a laptop, internet connection and the willingness to learn
+                            through
+                            collaboration and mentorship.
+                        </div>
+                    </div>
+
+                    <div class="contentx">
+                        <div class="label">What happens if i join and I’m not active?</div>
+                        <div class="content">Participants who join the program and stop engaging will be given the
+                            chance to
+                            catch up. You'll also be assigned a 'study-mate' and mentor to help you. However, there is
+                            the
+                            possibility of not being promoted to the next stage if you remain inactive for too long
+                        </div>
+                    </div>
+
+                    <div class="contentx">
+                        <div class="label"> Can I switch from the part-time track to full-time and vice versa?</div>
+                        <div class="content">Unfortunately, no, you cannot switch from part-time to full-time and
+                            vice-versa
+                        </div>
+                    </div>
+
+                    <div class="contentx">
+                        <div class="label">Will I get paid?</div>
+                        <div class="content">We reward some participants who complete tasks early, however, this is not
+                            a
+                            weekly reward. All the work that will be done during the program are hypothetical.
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <div class="tweet">
                 <p class="more">Still got questions?</p>
@@ -718,6 +759,15 @@
         </div>
     </footer>
 
+    <script>
+        const accordion = document.getElementsByClassName ('contentx');
+
+        for (i=0; i<accordion.length; i++){
+            accordion[i].addEventListener('click', function() {
+                this.classList.toggle('active')
+            })
+        }
+    </script>
 </body>
 
 </html>

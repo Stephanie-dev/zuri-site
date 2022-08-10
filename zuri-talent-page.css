@@ -1,0 +1,45 @@
+@import url('http://fonts.cdnfonts.com/css/graphik');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Graphik, sans-serif;
+}
+
+
+@media (min-width: 981px) {
+    .wrapper li {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        margin-right: 2rem;
+    }
+
+    #Home,
+    .impact-container {
+        display: flex;
+    }
+
+    .cards {
+        display: inline-flex;
+    }
+
+    h1 {
+        text-align: start;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+    }
+
+    hr {
+        display: none;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
