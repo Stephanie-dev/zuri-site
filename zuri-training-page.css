@@ -99,9 +99,9 @@ hr {
 }
 
 .enroll img {
-    margin-right: -40px;
+    margin-right: -35px;
     right: 222px;
-    margin-top: -12px;
+    margin-top: -13px;
     position: absolute !important;
     width: 74px !important;
 }
@@ -176,7 +176,7 @@ hr {
     font-style: normal !important;
     font-weight: 600 !important;
     line-height: 110% !important;
-    padding-left: 50px;
+    padding-left: 62px;
     padding-top: -10px !important;
     text-align: center !important;
     font-family: Graphik, sans-serif;
@@ -223,7 +223,7 @@ hr {
     line-height: 130% !important;
     margin: auto !important;
     padding-bottom: 40px !important;
-    padding-left: 37px;
+    padding-left: 49px;
     text-align: center !important;
     width: 70%;
     letter-spacing: 0.00938em;
@@ -234,12 +234,12 @@ hr {
     justify-content: right;
     margin-left: -10px;
     margin-bottom: 28px;
-    margin-right: 112px;
-    margin-top: -17px;
+    margin-right: 91px;
+    margin-top: -14px;
 }
 
 .line img {
-    width: 33%;
+    width: 31%;
 
 }
 
@@ -538,7 +538,7 @@ hr {
 .container5 {
     display: flex;
     margin: auto !important;
-   
+
     padding-top: 70px !important;
     width: 89% !important;
     padding-left: 20px;
@@ -672,6 +672,9 @@ hr {
     width: 30%;
 }
 
+.disabled{
+    cursor: not-allowed;
+}
 .gamee img {
     width: 27%;
 }
@@ -876,7 +879,7 @@ hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
+    min-height: 60vh;
     padding: 0 20px 0 24px;
 }
 
@@ -896,7 +899,7 @@ hr {
     position: relative;
     padding: 30px 80px 10px 20px;
     cursor: pointer;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: rgb(51, 51, 51)
 }
@@ -944,14 +947,15 @@ hr {
     height: 0;
     overflow: hidden;
     transition: 0.5s;
-
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1rem;
 }
 
 .accordion .contentx.active .content {
     height: 36px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 7px 20px 50px 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .part7 {
@@ -982,7 +986,7 @@ hr {
 .got,
 .faq1 {
     letter-spacing: 0.00938em;
-    
+
 }
 
 .got {
@@ -1010,7 +1014,7 @@ hr {
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
-    margin-top: 67px;
+    margin-top: 74px;
 }
 
 .more {
@@ -1081,6 +1085,128 @@ hr {
     width: 83% !important;
 }
 
+
+.modal {
+    left: 0 !important;
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    /* Sit on top */
+    top: 0;
+    overflow: hidden;
+    /* Enable scroll if needed */
+    bottom: 0;
+    right: 0;
+    z-index: 1300;
+    animation-name: fadeIn; /* Fade in the background */
+    animation-duration: .7s;
+    inset: 0px;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-window {
+    position: relative;
+    background-color: #fff;
+    width: 37%;
+    animation-name: slideIn;
+    animation-duration: .1s;
+    padding: 80px 30px 80px 70px;
+    margin: 10% auto;
+    border-radius: 10px !important;
+}
+
+@-webkit-keyframes slideIn {
+    from {top: 0; opacity: 1} 
+    to {top: 2; opacity: 1}
+}
+
+@keyframes slideIn {
+    from {top: 0; opacity: 1} 
+    to {top: 2; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 0.9} 
+    to {opacity: 1}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0.9} 
+    to {opacity: 1}
+}
+
+.open{
+    display: block;
+}
+
+.modal h3 {
+    color: #1b1a20;
+    font-weight: 400;
+    font-family: Graphik !important;
+    font-size: 20px !important;
+    font-style: normal !important;
+    text-align: center;
+}
+
+
+.flexZero {
+    display: flex;
+   
+}
+
+.flexZero h3{
+ text-align: left;
+ width: 68%;
+ line-height: 30px !important;
+}
+
+.close1{
+    margin-left: 20px !important;
+    margin-top: 3px !important;
+}
+.close {
+    font-size: 50px !important;
+    color: #e7332b !important;
+    font-weight: 400 !important;
+    margin-left: 48px !important;
+    margin-top: -20px !important;
+    cursor: pointer !important;
+}
+
+.modal-window1{
+    width: 40% !important;
+    border: 3px solid #585757;
+}
+.laptopR{
+    width: 87% !important;
+    margin-top: 27px !important;
+}
+#mod {
+    font-family: Graphik !important;
+    font-size: 17px !important;
+    font-style: normal !important;
+    letter-spacing: .02em !important;
+    line-height: 22px !important;
+    margin: 16px 0px 0px;
+    color: #585757;
+    font-weight: 400;
+    text-align: left;
+}
+
+#modd{
+    font-family: Graphik !important;
+    font-size: 17px !important;
+    font-style: normal !important;
+    letter-spacing: .02em !important;
+    line-height: 22px !important;
+    margin: 16px 0px 0px;
+    color: #585757;
+    font-weight: 400;
+    width: 90%;
+    text-align: left;
+}
 .wiree7 {
     margin-left: 10%;
     margin-top: 6px;
@@ -1278,6 +1404,11 @@ hr {
     margin: 0;
 }
 
+.lang1,
+.lang2,
+.post {
+    font-size: 100;
+}
 
 .flex-one img {
     width: 12%;
@@ -1286,6 +1417,10 @@ hr {
 .post a {
     color: #fff;
     text-decoration: underline;
+}
+
+.post img {
+    position: relative;
 }
 
 .it {
@@ -1389,7 +1524,7 @@ hr {
     font-size: 18px !important;
     font-weight: 400 !important;
     justify-content: center;
-    padding-top: 70px !important;
+    padding-top: 69px !important;
     width: 100% !important;
     line-height: 130%;
     letter-spacing: 0.00938em;
@@ -1407,6 +1542,8 @@ hr {
 
 .enroll2 {
     text-align: center;
+    margin-top: 10px !important;
+    margin-bottom: 8px !important;
 }
 
 .enroll2 a {
@@ -1414,9 +1551,9 @@ hr {
     color: #E7332B;
     box-shadow: rgb(0 0 0 / 20%) 0px 3px 1px -2px, rgb(0 0 0 / 14%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 1px 5px 0px;
     border-radius: 71px !important;
-    margin-bottom: 40px !important;
+    margin-bottom: 44px !important;
     margin-top: 30px !important;
-    padding: 10px 32px !important;
+    padding: 13px 32px !important;
     position: relative;
     letter-spacing: 0.02857em;
     font-size: 18px !important;
