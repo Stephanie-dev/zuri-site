@@ -78,7 +78,7 @@ nav .containerN ul li{
 }
 
 nav .containerN ul li.active {
-    border-bottom: 3px solid #e7332b;
+    border-bottom: 4px solid #e7332b;
     transition: 0.3s ;
     
 }
@@ -273,31 +273,42 @@ nav a:hover{
     padding: 80px 30px 80px 30px;
     margin: 10% auto;
     border-radius: 10px;
-    animation-name: slideIn;
-    animation-duration: .1s;
+    animation-name: animatetop;
+    animation-duration: 0.7s
 }
 
+/* Add Animation */
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
 
-@-webkit-keyframes slideIn {
-    from {top: 0; opacity: 1} 
-    to {top: 0; opacity: 1}
-}
-
-@keyframes slideIn {
-    from {top: 0; opacity: 1} 
-    to {top: 0; opacity: 1}
+    to {
+        top: 0;
+        opacity: 1
+    }
 }
 
 @-webkit-keyframes fadeIn {
-    from {opacity: 0.9} 
-    to {opacity: 1}
+    from {
+        opacity: 1
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 @keyframes fadeIn {
-    from {opacity: 0.9} 
-    to {opacity: 1}
-}
+    from {
+        opacity: 1
+    }
 
+    to {
+        opacity: 1
+    }
+}
 .closeBtn{
     float: right;
     width: 1.5rem;

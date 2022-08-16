@@ -508,6 +508,10 @@ section.programs {
     .polkadot2 {
         display: none;
     }
+
+    .column-card{
+        margin-bottom: 24px;
+    }
 }
 
 @media only screen and (min-width: 728px) and (max-width: 768px) {
