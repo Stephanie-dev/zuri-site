@@ -17,6 +17,10 @@ a {
 
 }
 
+.all {
+    overflow: hidden;
+}
+
 p {
     display: block;
     font-size: 1rem;
@@ -1670,7 +1674,7 @@ hr {
 
 }
 
-@media only screen and (min-width: 280px) and (max-width: 768px) {
+@media only screen and (min-width: 280px) and (max-width: 760px) {
     .all {
         overflow: hidden;
     }
@@ -2384,7 +2388,7 @@ hr {
 
 @media only screen and (min-width: 412px) and (max-width: 414px) {
     .enroll img {
-        margin-right: -70px;
+        margin-right: -67px;
 
     }
 
@@ -2448,7 +2452,7 @@ hr {
     }
 }
 
-@media only screen and (min-width: 360px) and (max-width: 380px) {
+@media only screen and (min-width: 360px) and (max-width: 370px) {
     .enroll img {
         margin-right: -102px;
     }
@@ -2466,6 +2470,28 @@ hr {
 
     .gamee {
         width: 85%;
+    }
+
+    .access {
+        font-size: 24px !important;
+        padding-right: 40px;
+    }
+
+    .zt {
+
+        font-size: 18px !important;
+        text-align: left !important;
+    }
+
+    .wire2 img {
+        width: 320%;
+
+    }
+
+    .wire2 {
+        padding-left: 150px;
+        display: flex;
+        justify-content: end;
     }
 
 }
@@ -2768,15 +2794,15 @@ hr {
 
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1020px) {
+@media only screen and (min-width: 768px) and (max-width: 900px) {
     header {
         padding-top: 10px;
         padding-bottom: 15px;
         z-index: 1100;
         text-align: center;
-        width: 98%;
+        width: 100%;
         padding-left: 40px;
-        padding-right: 40px;
+        padding-right: 10px;
 
     }
 
@@ -2788,7 +2814,7 @@ hr {
     }
 
     .enroll img {
-        margin-right: -20px;
+        margin-right: -44px;
         margin-top: -11px;
         width: 68px !important;
     }
@@ -2796,7 +2822,7 @@ hr {
     .container1 {
         display: flex;
         flex-direction: column;
-        padding-top: 100px;
+        padding-top: 40px;
         width: 100%;
         margin-left: -60px;
         padding-left: 10px;
@@ -2806,19 +2832,21 @@ hr {
 
     .pg1 {
         font-size: 20px !important;
+        margin-top: -60px !important;
+        margin-left: 99px;
     }
 
     .pg2 {
         font-size: 37px !important;
-        width: calc(100% + 70px);
+        width: calc(100% + 90px);
         padding-top: -10px !important;
     }
 
     .lady1 {
         mix-blend-mode: darken !important;
-        width: 120% !important;
-        height: 480px;
-
+        width: 100% !important;
+        height: 470px;
+        margin-left: 70px;
     }
 
     .boy-img img {
@@ -2827,7 +2855,8 @@ hr {
 
     .intro {
         font-size: 20px !important;
-        width: 87%;
+        width: 100%;
+        padding-left: 118px;
     }
 
     .line {
@@ -2837,13 +2866,28 @@ hr {
     .line img {
         width: 33%;
     }
-
-    .face {
-display: none;
+    .signin {
+        margin-left: 120px;
     }
 
+    .signin a {
+        white-space: nowrap;
+        padding: 10px 29px !important;
+    }
+    .face {
+        display: none;
+    }
+
+    .wire {
+        margin-right: 90px;
+    }
+
+    .wire img {
+        width: 20%;
+    }
     .part2 {
         margin-left: 28px;
+        margin-top: -40px;
         padding: 0px 30px 70px 10px;
     }
 
@@ -2856,7 +2900,7 @@ display: none;
     .ingressive-logo img {
         margin-top: 10px;
         padding-right: -20px;
-        padding-left: 480px;
+        padding-left: 470px;
     }
 
     .ingressive-logo {
@@ -2875,7 +2919,7 @@ display: none;
 
     .skill p {
         color: #585757 !important;
-        margin-left: 0px;
+        margin-left: -20px;
         font-size: 19px !important;
     }
 
@@ -2886,27 +2930,50 @@ display: none;
 
     .access {
         font-size: 29px !important;
-        width: calc(100% + 180px);
+        width: calc(100% + 170px);
     }
 
     .star img {
-      display: none;
+        display: none;
     }
 
+    .wire2 img {
+        width: 28%;
+    margin-left: 240px;
+    }
+    
+    .wire2 {
+        display: flex;
+        justify-content: center;
+    }
+    
     .container4 {
         margin-left: 20px;
         flex-direction: column;
         width: 100%;
     }
 
+    .whyzuri{
+        width: calc(100% + 170px);
+    }
+    .access {
+        font-size: 24px !important;
+    }
+
+    .zt {
+
+        font-size: 17px !important;
+        text-align: left !important;
+    }
+
     .box1 {
-        width: 90%;
-        margin-left: 25px;
+        width: 95%;
+        margin-left: 4px;
     }
 
     .box2 {
-        margin-left: 22px;
-        width: 90%;
+        width: 95%;
+        margin-left: 4px;
         padding: 58px 48px 93px 50px !important;
     }
 
@@ -2947,16 +3014,18 @@ display: none;
     }
 
     .wiree2 img {
-        width: 33%;
+        width: 30%;
     }
 
     .boxx2 img {
         width: 94%;
         height: calc(100% + 70px);
     }
+
     .help {
         font-size: 20px !important;
     }
+
     .training {
         width: calc(100% + 20px);
         font-size: 30px !important;
@@ -2974,25 +3043,28 @@ display: none;
     }
 
     .btns {
-        width: calc(100% + 24px);
+        width: calc(100% + 44px);
     }
 
     .btn {
         padding: 10px 37px 7px 10px;
         white-space: nowrap;
-        width: calc(100% + 34px);
+    
     }
 
-    .btn p{
-        font-size:20px;
+    .btn p {
+        font-size: 20px;
     }
+
     .gamee {
         width: calc(100% + 16px);
     }
 
-    .mentor,.fun{
+    .mentor,
+    .fun {
         margin-left: 50px;
     }
+
     .team,
     .mentor,
     .practice,
@@ -3020,9 +3092,20 @@ display: none;
         max-width: 1440px !important;
     }
 
+    .scope {
+        font-size: 17px !important;
+    }
     .list {
-        font-size: 37px !important;
+        font-size: 30px !important;
         width: 100%;
+    }
+    .arrow {
+        margin-top: -40px;
+        margin-left: 110px;
+    }
+
+    .arrow img {
+        width: 20%;
     }
 
     .box-sect {
@@ -3037,131 +3120,852 @@ display: none;
         margin-left: 25px;
         margin-bottom: 25px;
         height: 320px !important;
-        width:97%;
+        width: 97%;
     }
 
     .body {
         min-height: 30vh;
         margin-left: -24px;
-        padding: 0 70px 0 40px;
+        padding: 0 40px 0 10px;
     }
-
+    .tweet {
+        margin-top: 80px;
+        margin-left: -57px;
+    }
     .enroll2 a {
         width: 37%;
         padding: 13px 34px !important;
     }
+
     .container7 hr {
         width: 100% !important;
         margin: 0 0px 0 -20px;
         justify-content: center;
     }
+
+    .wiree7 {
+        margin-left: 10%;
+        margin-top: 6px;
+    }
+
+    .wiree7 img {
+        width: 19%;
+    }
+
+    .star1 {
+        display: flex;
+        justify-content: end !important;
+        margin-top: -65px !important;
+    }
+
+    .star1 img {
+        width: 12%;
+    }
+
+    .structure {
+        text-align: center;
+    }
+
+    .structure p {
+        letter-spacing: 0.00938em;
+    }
+
+    .paths {
+        font-size: 20px !important;
+        margin-top: -19px;
+    }
+
+    .box {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        width: calc(100% + 40px);
+        margin-left: -70px;
+
+    }
+
+    .move {
+        display: none;
+    }
+
+    .box-one {
+        padding-left: 40px;
+        padding-top: 40px;
+        width: calc(100% + 40px);
+    }
+
+    .modal-window {
+        width: 40%;
+        border: 2px solid rgb(245, 198, 111);
+    }
+    .red-polkadot1{
+        display: none;
+    }
+    .round {
+        left: 13% !important;
+        margin-top: 37px !important;
+        position: absolute;
+    }
+
+    .round img {
+        width: 47% !important;
+    }
+
+    .bend1 {
+        position: absolute;
+        right: 0% !important;
+        width: 28%;
+    }
+
+    .bend1 img {
+        width: 90%;
+    }
+
+    .break {
+        font-size: 47px !important;
+        font-weight: 600 !important;
+        margin: auto !important;
+        padding-bottom: 40px !important;
+        line-height: 130%;
+        padding-top: 9px !important;
+        width: 57% !important;
+    }
+
+    .mains img {
+        left: 0;
+        width: 22%;
+    }
+
+    .copy1 p {
+        color: #585757 !important;
+        font-size: 16px !important;
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .nav a {
+        color: #585757;
+    }
+
+}
+
+@media only screen and (min-width: 912px) and (max-width: 1020px) {
+    .all{
+        overflow: hidden;
+    }
+    header {
+        padding-top: 24px;
+        padding-bottom: 15px;
+        z-index: 1100;
+        text-align: center;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 10px;
+
+    }
+
+    .about-us,
+    .trust,
+    .stacks,
+    .questionss {
+        display: none;
+    }
+
+    .enroll img {
+        margin-right: -44px;
+        margin-top: -11px;
+        width: 68px !important;
+    }
+
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        width: 100%;
+        margin-left: -60px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pg1 {
+        font-size: 21px !important;
+        margin-top: -60px !important;
+        margin-left: 99px;
+    }
+
+    .pg2 {
+        font-size: 37px !important;
+        width: calc(100% + 170px);
+        margin-left: -40px;
+        padding-top: -10px !important;
+    }
+
+    .lady1 {
+        mix-blend-mode: darken !important;
+        width: 100% !important;
+        height: 470px;
+        margin-left: 70px;
+    }
+
+    .boy-img img {
+        display: none;
+    }
+
+    .intro {
+        font-size: 21px !important;
+        width: 100%;
+        padding-left: 118px;
+    }
+
+    .line {
+        margin-right: -74px;
+    }
+
+    .line img {
+        width: 33%;
+    }
+    .signin {
+        margin-left: 120px;
+    }
+
+    .signin a {
+        white-space: nowrap;
+        padding: 10px 29px !important;
+    }
+    .face {
+        margin-left: 40px;
+        margin-top: -140px;
+    }
+
+    .wire {
+        margin-right: 90px;
+    }
+
+    .wire img {
+        width: 17%;
+    }
+
+    .part2{
+        width: calc(100% + 48px);
+        margin-left: -24px;
+    }
+    .container2 {
+        margin-top: -16px;
+        max-width: 1440px !important;
+        width: calc(100% + 20px);
+        padding: 5px 0 40px 0;
+    }
+
+    .ingressive-logo img {
+        margin-top: 10px;
+        padding-right: -50px;
+        padding-left: 170px;
+    }
+
+    .ingressive-logo {
+        width: 20%;
+        height: 200px;
+    }
+
+    .date {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .date h2 {
+        margin-top: 50px;
+        margin-right: -120px;
+        font-size: 22px;
+        padding-left: 17px;
+        padding-right: 0px;
+    }
+
+    .skill p {
+        font-size: 20px !important;
+        color: #585757 !important;
+        margin-left: 70px;
+    }
     
-.wiree7 {
-    margin-left: 10%;
-    margin-top: 6px;
-}
+    .part3 section {
+        margin: auto;
+        width: 100%;
+    }
 
-.wiree7 img {
-    width: 19%;
-}
+    .container3 {
+        padding: 0 0 0 60px;
+        width: 100%;
+    }
+    .zt{
+        font-size: 20px !important;
+    }
+    .access {
+        font-size: 27px !important;
+        width: 100%;
+    }
 
-.star1 {
-    display: flex;
-    justify-content: end !important;
-    margin-top: -65px !important;
-}
+    .star img {
+        display: none;
+    }
 
-.star1 img {
-    width: 12%;
-}
+    .wire2 img {
+        width: 18%;
+    margin-left: 280px;
+    }
+    .part4 {
+        width: 100%;
+    }
 
-.structure {
-    text-align: center;
-}
+    .container4 {
+        margin-left: 8px;
+        width: 97%;
+        flex-basis: 30%;
+        padding: 52px 0px 120px 0px;
+    }
 
-.structure p {
-    letter-spacing: 0.00938em;
-}
+    .box1 {
+        width: 46%;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        padding: 58px 48px 84px 50px !important;
+        background-attachment: scroll;
+        transition: transform ease 300ms;
+    }
 
-.paths {
-    font-size: 20px !important;
-    margin-top: -19px;
-}
+    .box2 {
+        margin-left: 22px;
+        width: 46%;
+        padding: 58px 48px 84px 50px !important;
+    }
 
-.box {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    width: calc(100% + 40px);
-    margin-left: -70px;
+    .num1 {
+        font-size: 60px !important;
+        font-weight: 600 !important;
+        line-height: 110% !important
+    }
+
+    .num {
+        font-size: 60px !important;
+        font-weight: 600 !important;
+        line-height: 110% !important
+    }
+
+    .remote1 {
+        font-size: 40px !important;
+        font-weight: 500 !important;
+    }
+
+    .remote {
+        font-size: 40px !important;
+        font-weight: 500 !important;
+    }
+
+    .hundred {
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        color: #585757;
+    }
+
+    .hundred1 {
+        font-size: 17px !important;
+        font-weight: 400 !important;
+        color: #585757;
+    }
+    
+    .container5 {
+        width: 97% !important;
+        padding-left: 80px;
+        flex-direction: column;
+    }
+
+    .wiree2 img {
+        width: 27%;
+    }
+
+    .boxx2 {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .boxx2 img {
+        width: 94%;
+        height: calc(100% + 70px);
+    }
+
+    .training {
+        width: calc(100% + 20px);
+        font-size: 32px !important;
+    }
+
+    .tasks {
+        font-size: 18px !important;
+        width: 96% !important;
+    }
+
+    .signinn {
+        width: 22% !important;
+        padding: 8px 14px !important;
+        white-space: nowrap;
+    }
+
+    .container6 {
+        padding: 0 34px 0 40px;
+        max-width: 1440px !important;
+    }
+
+    .list {
+        font-size: 32px !important;
+        width: 94%;
+    }
+
+    .box-sect {
+        margin-top: 0px;
+        width: calc(100% + 24px);
+        margin-left: -21px;
+
+    }
+
+    .boxes {
+        margin-left: 25px;
+        margin-bottom: 25px;
+        height: 320px !important;
+        width: 47%;
+    }
+
+    .body {
+        min-height: 30vh;
+        margin-left: -24px;
+        padding: 0 50px 0 40px;
+    }
+    .tweet {
+        margin-top: 80px;
+        margin-left: -57px;
+    }
+    .enroll2 a {
+        width: 37%;
+        padding: 13px 34px !important;
+    }
+
+    .box {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        margin-left: -40px;
+        width: calc(100% + 14px);
+    }
+
+    .move {
+        display: none;
+    }
+
+    .box-one {
+        padding-left: 40px;
+        padding-top: 40px;
+    }
+   
+    .red-polkadot {
+        margin-right: -8px !important;
+        margin-top: -57px !important;
+    }
+
+    .red-polkadot img {
+        width: 17% !important;
+    }
+   
+    .red-polkadot1{
+        margin-left: 48px;
+    }
+    .part9 {
+        margin: 70px auto auto !important;
+        max-width: 1440px !important;
+        padding-top: 40px !important;
+        width: 100% !important;
+    }
+
+    .container9 {
+        width: 90% !important;
+        margin-left: 47px;
+    }
+
+    .round {
+        left: 17% !important;
+        margin-top: 58px !important;
+        position: absolute;
+    }
+
+    .round img {
+        width: 48% !important;
+    }
+
+    .bend1 {
+        position: absolute;
+        right: 0% !important;
+        width: 20%;
+    }
+
+    .bend1 img {
+        width: 90%;
+    }
+
+    .break {
+        font-size: 44px !important;
+        font-weight: 600 !important;
+        margin: auto !important;
+        padding-bottom: 40px !important;
+        line-height: 130%;
+        padding-top: 9px !important;
+        width: 57% !important;
+    }
+
+    .mains img {
+        left: 0;
+        width: 22%;
+    }
 
 }
+@media only screen and (min-width: 1024px) and (max-width: 1100px) {
+    header {
+        padding-top: 10px;
+        width: 98%;
+        padding-left: 40px;
+        padding-right: 10px;
 
-.move {
-    display: none;
-}
+    }
 
-.box-one {
-    padding-left: 40px;
-    padding-top: 40px;
-    width: calc(100% + 40px);
-}
+    .i4gzuri img {
+        width: 210px !important;
+        height: 58px;
+    }
 
-.modal-window{
-    width: 40%;
-    border: 2px solid rgb(245, 198, 111);
-}
+    .navlinks a {
+        font-size: 18px !important;
+        padding: 7px;
+        color: #585757;
+        margin-right: 1.7rem;
+    }
 
-.round {
-    left: 13% !important;
-    margin-top: 37px !important;
-    position: absolute;
-}
+    .enroll {
+        display: flex;
+        text-align: center;
+        margin-left: 13px;
+    }
 
-.round img {
-    width: 47% !important;
-}
+    .enroll a {
+        background-color: #e7332b !important;
+        padding: 0;
+    }
 
-.bend1 {
-    position: absolute;
-    right: 0% !important;
-    width: 28%;
-}
+    .enroll .reg {
+        padding: 10px 32px !important;
+        font-size: 17px !important;
+        position: initial;
 
-.bend1 img {
-    width: 90%;
-}
+    }
 
-.break {
-    font-size: 47px !important;
-    font-weight: 600 !important;
-    margin: auto !important;
-    padding-bottom: 40px !important;
-    line-height: 130%;
-    padding-top: 9px !important;
-    width: 57% !important;
-}
+    .enroll img {
+        margin-right: -57px;
+        margin-top: -11px;
+        width: 68px !important;
+    }
 
-.mains img {
-    left: 0;
-    width: 22%;
-}
-.copy1 p {
-    color: #585757 !important;
-    font-size: 16px !important;
-}
+    .container1 {
+        padding-top: 20px;
+        margin-left: -0px;
+        width: 100%;
+        flex-direction: column;
+       
+    }
 
-.nav {
-    display: flex;
-}
+    .pg1 {
+        color: #e7332b;
+        font-size: 23px !important;
+        padding-left: 70px;
+        margin-top: -70px;
+    }
 
-.nav a {
-    color: #585757;
-}
+    .pg2 {
+        font-size: 48px !important;
+        padding-top: -10px !important;
+        margin-left: -110px;
+        width: calc(100% + 170px);
+    }
 
-}
+    .lady1 {
+        mix-blend-mode: darken !important;
+        height: 590px;
+        margin-left: -90px;
+    }
 
-@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .boy-img {
+       display: none;
+    }
+
+    .gain a {
+        background-color: #e7332b !important;
+        color: #fff;
+    }
+
+    .gain {
+        width: 80%;
+    }
+
+    .intro {
+        color: #585757 !important;
+        font-size: 19px !important;
+        margin-right: 40px;
+        padding-left: 54px;
+        width: 100%;
+    }
+
+    .line {
+        margin-right: 40px;
+    }
+
+    .line img {
+        width: 34%;
+
+    }
+
+    .wire {
+        margin-right: 160px;
+    }
+
+    .wire img {
+        width: 18%;
+    }
+
+    .signin {
+        margin-left: 77px;
+    }
+
+    .face {
+        margin-left: 100px;
+        margin-top: -120px;
+    }
+
+    .part2 {
+        margin-left: 24px;
+        padding: 70px 14px 70px 10px;
+        width: 97%;
+    }
+
+    .container2 {
+        margin-top: -16px;
+        max-width: 1440px !important;
+        width: 100%;
+        padding: 5px 0 40px 0;
+    }
+
+    .ingressive-logo img {
+        margin-top: 10px;
+        padding-right: -50px;
+        padding-left: 170px;
+    }
+
+    .ingressive-logo {
+        width: 20%;
+        height: 200px;
+    }
+
+    .date {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .date h2 {
+        margin-top: 8px;
+        margin-right: -120px;
+        font-size: 23px;
+        padding-left: 17px;
+        padding-right: 40px;
+    }
+
+    .skill p {
+        font-size: 20px;
+        color: #585757 !important;
+        margin-left: 120px;
+    }
+    .part3 section {
+        margin: auto;
+        width: 100%;
+    }
+
+    .container3 {
+        padding: 0 0 0 60px;
+        width: 100%;
+    }
+
+    .access {
+        font-size: 30px !important;
+        width: 100%;
+    }
+
+    .star img {
+        width: 80%;
+        margin-left: 0px;
+        padding: 70px 130px 0 0;
+    }
+
+    .container4 {
+        margin-left: 20px;
+        width: 97%;
+        padding: 52px 20px 120px 0px;
+    }
+
+    .box1 {
+        width: 47%;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        padding: 58px 48px 93px 50px !important;
+        background-attachment: scroll;
+        transition: transform ease 300ms;
+    }
+
+    .box2 {
+        margin-left: 22px;
+        width: 47%;
+        padding: 58px 48px 93px 50px !important;
+    }
+    .part5 {
+        background-color: rgb(231, 51, 43);
+        max-width: 1440px !important;
+        width: 100% !important;
+    }
+
+    .container5 {
+        width: 97% !important;
+        flex-direction: column;
+        padding-left: 80px;
+    }
+
+    .wiree2 img {
+        width: 25%;
+    }
+
+    .boxx2 {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .boxx2 img {
+        width: 94%;
+        height: calc(100% + 70px);
+    }
+
+    .training {
+        width: calc(100% + 20px);
+        font-size: 37px !important;
+    }
+
+    .tasks {
+        font-size: 18px !important;
+        width: 73% !important;
+    }
+
+    .signinn {
+        width: 20% !important;
+        padding: 8px 14px !important;
+        white-space: nowrap;
+    }
+
+    .btns {
+        width: calc(100% + 74px);
+    }
+
+    .btn {
+        padding: 10px 27px 7px 10px;
+        white-space: nowrap;
+        font-size: 19px;
+        width: calc(100% + 38px);
+    }
+
+    .gamee {
+        width: calc(100% + 16px);
+    }
+
+    .team,
+    .mentor,
+    .practice,
+    .fun {
+        margin-right: 59px;
+    }
+
+    .btn img {
+        margin-right: 10px;
+        width: 28%;
+        padding-top: 0px;
+    }
+
+    .gamee img {
+        width: 28%;
+    }
+  
+    .container6 {
+        padding: 0 23px 0 40px;
+        max-width: 1440px !important;
+    }
+
+    .list {
+        font-size: 31px !important;
+        width: 100%;
+    }
+
+    .arrow {
+        margin-top: -50px;
+        margin-left: -70px;
+    }
+
+    .box-sect {
+        margin-top: 0px;
+        width: calc(100% + 34px);
+        margin-left: -21px;
+
+    }
+
+    .boxes {
+        margin-left: 22px;
+        margin-bottom: 25px;
+        height: 320px !important;
+        width: 47%;
+    }
+    .tweet {
+        padding-bottom: 40px;
+        margin-top: 80px;
+    }
+
+    .move {
+        display: none;
+    }
+
+    .break {
+        font-size: 44px !important;
+        width: 57% !important;
+    }
+    .round {
+        left: 18% !important;
+        margin-top: 67px !important;
+        position: absolute;
+    }
+
+    .round img {
+        width: 53% !important;
+    }
+
+    .bend1 {
+        position: absolute;
+        right: 0% !important;
+        width: 28%;
+    }
+
+    .bend1 img {
+        width: 90%;
+    }
+
+  
+}
+@media only screen and (min-width: 1280px) and (max-width: 1440px) {
     header {
         padding-top: 10px;
         padding-bottom: 15px;
