@@ -498,6 +498,90 @@ section.programs {
     }
 }
 
+@media only screen and (min-width: 282px) and (max-width: 359px) {
+    .center-img {
+        padding-top: 120px;
+        margin-bottom: 84px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    .prog-container p {
+        font-size: 24px;
+        padding-left: 12px;
+        padding-right: 12px;
+        text-align: center;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column !important;
+        margin: 0 auto;
+        justify-content: center;
+        line-height: 1.5;
+    }
+
+    .btn-new {
+        margin-bottom: 25px;
+        margin-left: 23px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column !important;
+        padding: 0 19px 0 10px;
+    }
+
+    .polkadot,
+    .polkadot2 {
+        display: none;
+    }
+
+    .column-card p {
+        line-height: 29px;
+    }
+
+    .zuri h3 {
+        line-height: 32px;
+    }
+
+    .column-card {
+        margin-bottom: 50px;
+    }
+
+    .details-container {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+
+    .logo-img img {
+        width: 70%;
+    }
+
+    .logo-img {
+        padding-bottom: 47px;
+    }
+
+    .footerr h3 {
+        font-size: 24px;
+    }
+
+    .link {
+        padding-bottom: 24px;
+    }
+
+    .ctc {
+        margin-bottom: 20px;
+    }
+
+    .follow {
+        padding-bottom: 48px;
+    }
+}
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .box{
         display: flex;
