@@ -1116,6 +1116,7 @@ hr {
     position: relative;
     background-color: #fff;
     width: 37%;
+    border: 3px solid #585757;
     padding: 80px 30px 80px 70px;
     margin: 10% auto;
     border-radius: 10px !important;
@@ -2866,6 +2867,7 @@ hr {
     .line img {
         width: 33%;
     }
+
     .signin {
         margin-left: 120px;
     }
@@ -2874,6 +2876,7 @@ hr {
         white-space: nowrap;
         padding: 10px 29px !important;
     }
+
     .face {
         display: none;
     }
@@ -2885,6 +2888,7 @@ hr {
     .wire img {
         width: 20%;
     }
+
     .part2 {
         margin-left: 28px;
         margin-top: -40px;
@@ -2939,23 +2943,24 @@ hr {
 
     .wire2 img {
         width: 28%;
-    margin-left: 240px;
+        margin-left: 240px;
     }
-    
+
     .wire2 {
         display: flex;
         justify-content: center;
     }
-    
+
     .container4 {
         margin-left: 20px;
         flex-direction: column;
         width: 100%;
     }
 
-    .whyzuri{
+    .whyzuri {
         width: calc(100% + 170px);
     }
+
     .access {
         font-size: 24px !important;
     }
@@ -3049,7 +3054,7 @@ hr {
     .btn {
         padding: 10px 37px 7px 10px;
         white-space: nowrap;
-    
+
     }
 
     .btn p {
@@ -3095,10 +3100,12 @@ hr {
     .scope {
         font-size: 17px !important;
     }
+
     .list {
         font-size: 30px !important;
         width: 100%;
     }
+
     .arrow {
         margin-top: -40px;
         margin-left: 110px;
@@ -3128,10 +3135,12 @@ hr {
         margin-left: -24px;
         padding: 0 40px 0 10px;
     }
+
     .tweet {
         margin-top: 80px;
         margin-left: -57px;
     }
+
     .enroll2 a {
         width: 37%;
         padding: 13px 34px !important;
@@ -3195,12 +3204,14 @@ hr {
     }
 
     .modal-window {
-        width: 40%;
+        width: 59%;
         border: 2px solid rgb(245, 198, 111);
     }
-    .red-polkadot1{
+
+    .red-polkadot1 {
         display: none;
     }
+
     .round {
         left: 13% !important;
         margin-top: 37px !important;
@@ -3252,9 +3263,10 @@ hr {
 }
 
 @media only screen and (min-width: 912px) and (max-width: 1020px) {
-    .all{
+    .all {
         overflow: hidden;
     }
+
     header {
         padding-top: 24px;
         padding-bottom: 15px;
@@ -3327,6 +3339,7 @@ hr {
     .line img {
         width: 33%;
     }
+
     .signin {
         margin-left: 120px;
     }
@@ -3335,6 +3348,7 @@ hr {
         white-space: nowrap;
         padding: 10px 29px !important;
     }
+
     .face {
         margin-left: 40px;
         margin-top: -140px;
@@ -3348,10 +3362,11 @@ hr {
         width: 17%;
     }
 
-    .part2{
+    .part2 {
         width: calc(100% + 48px);
         margin-left: -24px;
     }
+
     .container2 {
         margin-top: -16px;
         max-width: 1440px !important;
@@ -3388,7 +3403,7 @@ hr {
         color: #585757 !important;
         margin-left: 70px;
     }
-    
+
     .part3 section {
         margin: auto;
         width: 100%;
@@ -3398,9 +3413,11 @@ hr {
         padding: 0 0 0 60px;
         width: 100%;
     }
-    .zt{
+
+    .zt {
         font-size: 20px !important;
     }
+
     .access {
         font-size: 27px !important;
         width: 100%;
@@ -3412,8 +3429,9 @@ hr {
 
     .wire2 img {
         width: 18%;
-    margin-left: 280px;
+        margin-left: 280px;
     }
+
     .part4 {
         width: 100%;
     }
@@ -3473,7 +3491,7 @@ hr {
         font-weight: 400 !important;
         color: #585757;
     }
-    
+
     .container5 {
         width: 97% !important;
         padding-left: 80px;
@@ -3539,10 +3557,12 @@ hr {
         margin-left: -24px;
         padding: 0 50px 0 40px;
     }
+
     .tweet {
         margin-top: 80px;
         margin-left: -57px;
     }
+
     .enroll2 a {
         width: 37%;
         padding: 13px 34px !important;
@@ -3556,6 +3576,18 @@ hr {
         width: calc(100% + 14px);
     }
 
+    .modal-window {
+        position: relative;
+        background-color: #fff;
+        width: 59%;
+        border: 3px solid rgb(245, 198, 111);
+        padding: 80px 30px 80px 70px;
+        margin: 20% auto;
+        border-radius: 10px !important;
+        animation-name: animatetop;
+        animation-duration: 1s
+    }
+
     .move {
         display: none;
     }
@@ -3564,7 +3596,7 @@ hr {
         padding-left: 40px;
         padding-top: 40px;
     }
-   
+
     .red-polkadot {
         margin-right: -8px !important;
         margin-top: -57px !important;
@@ -3573,10 +3605,11 @@ hr {
     .red-polkadot img {
         width: 17% !important;
     }
-   
-    .red-polkadot1{
+
+    .red-polkadot1 {
         margin-left: 48px;
     }
+
     .part9 {
         margin: 70px auto auto !important;
         max-width: 1440px !important;
@@ -3625,6 +3658,7 @@ hr {
     }
 
 }
+
 @media only screen and (min-width: 1024px) and (max-width: 1100px) {
     header {
         padding-top: 10px;
@@ -3675,7 +3709,7 @@ hr {
         margin-left: -0px;
         width: 100%;
         flex-direction: column;
-       
+
     }
 
     .pg1 {
@@ -3699,7 +3733,7 @@ hr {
     }
 
     .boy-img {
-       display: none;
+        display: none;
     }
 
     .gain a {
@@ -3787,6 +3821,7 @@ hr {
         color: #585757 !important;
         margin-left: 120px;
     }
+
     .part3 section {
         margin: auto;
         width: 100%;
@@ -3828,6 +3863,7 @@ hr {
         width: 47%;
         padding: 58px 48px 93px 50px !important;
     }
+
     .part5 {
         background-color: rgb(231, 51, 43);
         max-width: 1440px !important;
@@ -3901,7 +3937,7 @@ hr {
     .gamee img {
         width: 28%;
     }
-  
+
     .container6 {
         padding: 0 23px 0 40px;
         max-width: 1440px !important;
@@ -3930,6 +3966,7 @@ hr {
         height: 320px !important;
         width: 47%;
     }
+
     .tweet {
         padding-bottom: 40px;
         margin-top: 80px;
@@ -3939,10 +3976,22 @@ hr {
         display: none;
     }
 
+    .modal-window {
+        position: relative;
+        background-color: #fff;
+        width: 59%;
+        border: 3px solid rgb(245, 198, 111);
+        padding: 80px 30px 80px 70px;
+        margin: 20% auto;
+        border-radius: 10px !important;
+        animation-name: animatetop;
+        animation-duration: 1s
+    }
     .break {
         font-size: 44px !important;
         width: 57% !important;
     }
+
     .round {
         left: 18% !important;
         margin-top: 67px !important;
@@ -3963,8 +4012,9 @@ hr {
         width: 90%;
     }
 
-  
+
 }
+
 @media only screen and (min-width: 1280px) and (max-width: 1440px) {
     header {
         padding-top: 10px;
@@ -4407,4 +4457,49 @@ hr {
         width: 37%;
         padding: 13px 34px !important;
     }
+    
+    .modal-window {
+        position: relative;
+        background-color: #fff;
+        width: 59%;
+        border: 3px solid rgb(245, 198, 111);
+        padding: 80px 30px 80px 70px;
+        margin: 20% auto;
+        border-radius: 10px !important;
+        animation-name: animatetop;
+        animation-duration: 1s
+    }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1000px) {
+    .pg2 {
+        font-size: 47px !important;
+        padding-left: 70px;
+    }
+
+    .modal-window {
+        position: relative;
+        background-color: #fff;
+        width: 60%;
+        border: 3px solid orange;
+        padding: 80px 30px 80px 70px;
+        margin: 20% auto;
+        border-radius: 10px !important;
+        animation-name: animatetop;
+        animation-duration: 1s
+    }
+
+    /* Add Animation */
+    @keyframes animatetop {
+        from {
+            top: 200px;
+            opacity: .7
+        }
+
+        to {
+            top: 40px;
+            opacity: 1
+        }
+    }
+
 }
